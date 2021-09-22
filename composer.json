@@ -1,0 +1,49 @@
+{
+  "type": "library",
+  "name": "yzphp/wechat-developer-new",
+  "homepage": "https://github.com/yzphp/WeChatDeveloperNew",
+  "description": "WeChat platform and WeChat payment development tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Iwangr",
+      "email": "iwangr@126.com",
+      "homepage": "https://www.iwangr.com"
+    }
+  ],
+  "keywords": [
+    "WePay",
+    "AliPay",
+    "WeMini",
+    "WeChat",
+    "WeChatPay",
+	"WeShop",
+	"WeKefu",
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-xml": "*",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-bcmath": "*",
+    "ext-libxml": "*",
+    "ext-openssl": "*",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "We.php"
+    ],
+    "psr-4": {
+      "WePay\\": "WePay",
+      "WeChat\\": "WeChat",
+      "WeMini\\": "WeMini",
+      "AliPay\\": "AliPay",
+      "WePayV3\\": "WePayV3",
+	  "WeShop\\": "WeShop",
+	  "WeKefu\\": "WeKefu"
+	  
+    }
+  }
+}
